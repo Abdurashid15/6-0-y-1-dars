@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
+.country {
+  outline: none;
+  border: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  margin: 0 20;
+}
+
+li {
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar,
+img {
+  width: 100%;
+}
+
+.Icon {
+  width: 16px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #F0F1F2;
+  border-radius: 30px;
+  width: 530px;
+}
+
+.searchicon {
+  width: 16px;
+  margin: 0 20px;
+}
+
+input {
+  background-color: #F0F1F2;
+  border: 0;
+  outline: none;
+  padding: 0px 50px;
+  width: 450px;
+  height: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-top {
+  display: flex;
+  gap: 40px;
+}
+
+.div {
+  display: flex;
+  margin-left: auto;
+  gap: 8px;
+}
+
+.navselect {
+  display: flex;
+  gap: 10px;
+}
+
+.navselect,
+p {
+  padding-left: 5px;
+}
+
+h1 {
+  font-family: Plus Jakarta Sans;
+  font-size: 76px;
+  font-weight: 800;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  padding-top: 12px;
+}
+
+a {
+  border-radius: 39px;
+  padding: 9px;
+  text-decoration: none;
+  color: #4F7DF3;
+  background-color: #E5EDFF;
+}
+
+.hero {
+  padding-top: 70px;
+}
+
+.subtitle {
+  padding-top: 30px;
+}
+
+.Mulai {
+  width: 198px;
+  height: 60px;
+  top: 685px;
+  left: 120px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  background-color: #4475F2;
+  color: white;
+}
+
+button {
+  background-color: white;
+}
+
+.Polygon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 20px;
+  border: 1px solid #4475F2;
+}
+
+.btns {
+  padding-top: 34px;
+  display: flex;
+  gap: 41px;
+}
+
+.play {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.PutarDemo {
+  font-family: Plus Jakarta Sans;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21.42px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 175px;
+  height: 51px;
+}
+
+.right {
+  width: 600px;
+  height: 707px;
+}
+
+.partners {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.axion {
+  width: 144.9px;
+  height: 144.9px;
+  cursor: pointer;
+
+}
+
+.jetstar {
+  width: 192.67px;
+  height: 122.61px;
+  cursor: pointer;
+}
+
+.expedia {
+  width: 180.57px;
+  height: 180.57px;
+  cursor: pointer;
+}
+
+.qantas {
+  width: 180.57px;
+  height: 35.67px;
+  cursor: pointer;
+}
+
+.litalia {
+  width: 104.78px;
+  height: 23.41px;
+  cursor: pointer;
+}
