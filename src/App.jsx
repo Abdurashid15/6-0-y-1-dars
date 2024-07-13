@@ -55,7 +55,7 @@ function App() {
         </div>
         <div className="hero">
           <div className="left">
-            <a href="#">✈ • Explore the wonderful indonesia!</a>
+            <a className='hero-link' href="#">✈ • Explore the wonderful indonesia!</a>
             <h1>Liburan & nikmati <br />
               tempat baru di <br />
               indonesia  ️🏝</h1>
@@ -77,6 +77,34 @@ function App() {
           <img className='expedia' src="/public/image 29.png" alt="expedia" />
           <img className='qantas' src="/public/image 30.png" alt="qantas" />
           <img className='litalia' src="/public/image 31.png" alt="litalia" />
+        </div>
+        <div className="cards">
+          <a className='cards-link' href='#'>DESTINASI FAVORIT</a>
+          <div className="link-fvoritm">
+            <h2 className='favoritmu'>✈ • Temukan Destinasi Favoritmu </h2><a className='lihat' href="#">Lihat semua <img className='Vector' src="/public/Vector 1.svg" alt="Vector" /></a>
+          </div>
+          <div className="cardss">
+            <div className="card card1">
+              <div className="card-description">
+              <p className='card-p'>Raja Ampat
+            </p><p className='secondp'>Bali </p></div>
+            </div>
+            <div className="card card2">
+              <div className="card-description">
+              <p className='card-p'>Labuan Bajo 
+            </p><p className='secondp'>NTT </p></div>
+            </div>
+            <div className="card card3">
+              <div className="card-description">
+              <p className='card-p'>Kawah Ijen 
+            </p><p className='secondp'>Jawa Timurp </p></div>
+            </div>
+            <div className="card card4">
+              <div className="card-description">
+              <p className='card-p'>Bromo
+            </p><p className='secondp'>Jawa Timurp </p></div>
+            </div>
+          </div>
         </div>
       </div>
     </>

@@ -94,7 +94,7 @@ h1 {
   padding-top: 12px;
 }
 
-a {
+.hero-link {
   border-radius: 39px;
   padding: 9px;
   text-decoration: none;
@@ -199,4 +199,110 @@ button {
   width: 104.78px;
   height: 23.41px;
   cursor: pointer;
+}
+
+.cards-link {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 26.5px;
+  letter-spacing: 0.095em;
+  text-align: left;
+  color: #4475F2;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.favoritmu {
+  font-family: Manrope;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.link-fvoritm {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding-top: 13px;
+}
+
+.lihat {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #4475F2;
+}
+
+.Vector {
+  width: 4.27px;
+  height: 10.64px;
+  border: 2px 0px 0px 0px;
+}
+
+.cards {
+  padding-top: 153px;
+}
+.card-description{
+  background-color: #FFFFFFB2;
+  width: 149.94px;
+  height: 76.18px;
+  padding: 10px;
+}
+.card-p {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20.5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-radius: 0px 10px 0px 0px;
+
+}
+
+.card {
+  width: 278.46px;
+  height: 392.36px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  align-items: end;
+}
+
+.cardss {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 46px;
+  padding-bottom: 153px;
+}
+
+.card1 {
+  background-image: url(/public/Raja.png);
+}
+
+.card2 {
+  background-image: url(/public/Labuan.png);
+}
+
+.card3 {
+  background-image: url(/public/Bromo.png);
+}
+
+.card4 {
+  background-image: url(/public/Kawah.png);
+}
+
+.secondp {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20.5px;
+  color: #80918E;
 }
